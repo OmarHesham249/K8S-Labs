@@ -51,7 +51,7 @@ kubectl get nodes
 
 📸 Cluster Status:
 
-![Worker Joined Successfully](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%202/Day%202%20The%20worker%20joined%20master%20successfully.png)
+![Worker Joined Successfully](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%202/screenshots/Day%202%20The%20worker%20joined%20master%20successfully.png)
 
 ---
 
@@ -71,7 +71,7 @@ kubectl apply -f deployment.yaml
 
 📸 Namespace Created:
 
-![Adding iti-46 Namespace](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%202/Adding%20iti-46%20namespace.png)
+![Adding iti-46 Namespace](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%202/screenshots/Adding%20iti-46%20namespace.png)
 
 ---
 
@@ -101,7 +101,7 @@ kubectl config use-context iti-46-context
 
 📸 Context Configured:
 
-![Adding iti Context](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%202/Adding%20iti%20context.png)
+![Adding iti Context](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%202/screenshots/Adding%20iti%20context.png)
 
 ---
 
@@ -125,7 +125,7 @@ kubectl hostnames
 
 📸 Plugin Output:
 
-![Printing Hostnames Plugin](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%202/Printing%20hostnames%20plugin.png)
+![Printing Hostnames Plugin](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%202/screenshots/Printing%20hostnames%20plugin.png)
 
 ---
 
@@ -165,7 +165,7 @@ kubectl describe pod | grep FOO
 
 📸 Pods with FOO=ITI:
 
-![Making 3 Pods with FOO in env](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%202/Making%203%20pods%20with%20FOO%20in%20env.png)
+![Making 3 Pods with FOO in env](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%202/screenshots/Making%203%20pods%20with%20FOO%20in%20env.png)
 
 ---
 

@@ -20,7 +20,7 @@ This lab covers Kubernetes storage and configuration management including Persis
 
 ---
 
-## 💾 Task 1 — Persistent Volumes (5 pts)
+## 💾 Task 1 — Persistent Volumes
 
 ### a & b. Create PV and PVC
 
@@ -134,7 +134,7 @@ cat /usr/share/nginx/html/index.html
 
 ---
 
-## 📡 Task 2 — Downward API (5 pts)
+## 📡 Task 2 — Downward API
 
 ### a & b. Create Downward PV and PVC
 
@@ -259,7 +259,7 @@ cat /usr/share/nginx/html/index.html
 
 ---
 
-## 🗂️ Task 3 — ConfigMaps (10 pts)
+## 🗂️ Task 3 — ConfigMaps
 
 ### a. Create ConfigMap `birke` from file
 

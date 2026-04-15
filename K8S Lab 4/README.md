@@ -68,7 +68,7 @@ kubectl apply -f nginx-pvc.yaml
 
 📸 PV and PVC YAML files:
 
-![Creating PV and PVC YAML files](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%204/1-%20creating%20pv%20and%20pvc%20yaml%20files%20.png)
+![Creating PV and PVC YAML files](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%204/screenshots/1-%20creating%20pv%20and%20pvc%20yaml%20files%20.png)
 
 ---
 
@@ -113,7 +113,7 @@ kubectl apply -f nginx-pv-deployment.yaml
 
 📸 Deployment YAML:
 
-![Creating the Deployment File](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%204/2-%20creating%20the%20deployment%20file.png)
+![Creating the Deployment File](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%204/screenshots/2-%20creating%20the%20deployment%20file.png)
 
 **Verify PV, PVC, and Pods:**
 ```bash
@@ -130,7 +130,7 @@ cat /usr/share/nginx/html/index.html
 
 📸 Applied and Verified:
 
-![Applying Files and Verifying](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%204/3-%20Applying%20files%20and%20verifying%20its%20running%20and%20pods.png)
+![Applying Files and Verifying](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%204/screenshots/3-%20Applying%20files%20and%20verifying%20its%20running%20and%20pods.png)
 
 ---
 
@@ -177,7 +177,7 @@ kubectl apply -f downward-pvc.yaml
 
 📸 Downward PV and PVC:
 
-![Creating Downward PV and PVC](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%204/4-%20Creating%20downward%20pv%20and%20pvc.png)
+![Creating Downward PV and PVC](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%204/screenshots/4-%20Creating%20downward%20pv%20and%20pvc.png)
 
 ---
 
@@ -241,11 +241,11 @@ kubectl get pods -o wide
 
 📸 Deployment File:
 
-![Creating Deployment File](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%204/5-%20creating%20deployment%20file.png)
+![Creating Deployment File](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%204/screenshots/5-%20creating%20deployment%20file.png)
 
 📸 Applied and Running:
 
-![Applying and Verifying Pods Running](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%204/6-%20applying%20and%20verifying%20the%20pods%20is%20running.png)
+![Applying and Verifying Pods Running](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%204/screenshots/6-%20applying%20and%20verifying%20the%20pods%20is%20running.png)
 
 **Verify `index.html` contains Pod Name and IP:**
 ```bash
@@ -255,7 +255,7 @@ cat /usr/share/nginx/html/index.html
 
 📸 Verification from Inside Pod:
 
-![Verifying from the Pod](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%204/7-%20verifying%20from%20the%20pod.png)
+![Verifying from the Pod](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%204/screenshots/7-%20verifying%20from%20the%20pod.png)
 
 ---
 
@@ -295,7 +295,7 @@ kubectl get configmap trauerweide
 
 📸 ConfigMaps Created:
 
-![Creating CM File and Applied](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%204/8-%20Creating%20cm%20file%20and%20applied.png)
+![Creating CM File and Applied](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%204/screenshots/8-%20Creating%20cm%20file%20and%20applied.png)
 
 ---
 
@@ -347,7 +347,7 @@ kubectl exec -it pod1 -- cat /etc/birke/department
 
 📸 Everything Running and Verified:
 
-![Verifying Everything is Running](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%204/9-%20Verifying%20everything%20is%20running.png)
+![Verifying Everything is Running](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%204/screenshots/9-%20Verifying%20everything%20is%20running.png)
 
 ---
 

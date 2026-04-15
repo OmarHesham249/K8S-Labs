@@ -21,7 +21,7 @@ This lab covers essential Kubernetes operational skills including cluster contex
 
 ---
 
-## 🔧 Task 1 — Kubectl Config (5 pts)
+## 🔧 Task 1 — Kubectl Config
 
 ### a. Create K3s Cluster (Server + Agent)
 
@@ -105,7 +105,7 @@ kubectl config use-context iti-46-context
 
 ---
 
-## 🔌 Task 2 — Kubectl Plugin (5 pts)
+## 🔌 Task 2 — Kubectl Plugin
 
 ### Create `kubectl-hostnames` plugin
 
@@ -129,7 +129,7 @@ kubectl hostnames
 
 ---
 
-## 📦 Task 3 — Creating Deployments (10 pts)
+## 📦 Task 3 — Creating Deployments
 
 ### NGINX Deployment with `FOO=ITI` env variable
 

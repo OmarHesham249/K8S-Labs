@@ -112,7 +112,7 @@ Worker → Ready
 
 📸 Cluster Status Screenshot:
 
-![Status](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%201/The%20worker%20joined%20and%20ready.png)
+![Status](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%201/screenshots/The%20worker%20joined%20and%20ready.png)
 
 ## 📦 Step 6: Deploy NGINX Application
 Create deployment:
@@ -129,7 +129,7 @@ kubectl get pods
 ```
 📸 Deployment Screenshot (3 NGINX Pods):
 
-![Deploying 3 replicas](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%201/After%20deploying%20the%203%20replicas.png)
+![Deploying 3 replicas](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%201/screenshots/After%20deploying%20the%203%20replicas.png)
 
 🎯 Result
 Kubernetes cluster successfully created using kubeadm

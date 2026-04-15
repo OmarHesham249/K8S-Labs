@@ -60,7 +60,7 @@ kubectl apply -f deployment-web.yaml
 
 📸 Deployment YAML:
 
-![Task 1b - Web Deployment](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%203/Task%201%20b.png)
+![Task 1b - Web Deployment](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%203/screenshots/Task%201%20b.png)
 
 ---
 
@@ -82,7 +82,7 @@ kubectl apply -f web-service.yaml
 
 📸 NodePort Service YAML:
 
-![Exposing NodePort](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%203/Exposing%20NodePort.png)
+![Exposing NodePort](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%203/screenshots/Exposing%20NodePort.png)
 
 ---
 
@@ -117,7 +117,7 @@ curl web-service.iti5.svc.cluster.local:5000
 
 📸 Curl from Pod to Service via DNS:
 
-![Curl from Pod to Another](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%203/curl%20from%20pod%20to%20another.png)
+![Curl from Pod to Another](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%203/screenshots/curl%20from%20pod%20to%20another.png)
 
 ---
 
@@ -132,7 +132,7 @@ kubectl create ns world
 
 📸 Namespace & Deployment Creation:
 
-![Task 2a and 2b](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%203/task%202%20a%20b.png)
+![Task 2a and 2b](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%203/screenshots/task%202%20a%20b.png)
 
 ---
 
@@ -179,7 +179,7 @@ kubectl expose deployment europe-deployment \
 
 📸 Services Created:
 
-![Task 2c - Making Services](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%203/Task%202%20C%20making%20services.png)
+![Task 2c - Making Services](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%203/screenshots/Task%202%20C%20making%20services.png)
 
 ---
 
@@ -234,7 +234,7 @@ curl http://world.universe.mine/africa
 
 📸 Ingress Routing Result:
 
-![Accessing Africa and Europe from Service](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Day%203/Accessing%20to%20africa%20and%20europe%20from%20service.png)
+![Accessing Africa and Europe from Service](https://github.com/OmarHesham249/K8S-Labs/blob/main/K8S%20Lab%203/screenshots/Accessing%20to%20africa%20and%20europe%20from%20service.png)
 
 ---
 
